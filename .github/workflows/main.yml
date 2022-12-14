@@ -1,0 +1,4 @@
+windows_job:
+  runs-on: windows-latest
+  steps:
+    - run: echo Hello, %USERNAME%!
